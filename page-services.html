@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Vany - Minimal Portfolio Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Premium Bootstrap 5 minimal Portfolio Template" />
+        <meta name="keywords" content="Minimal, Portfolio, Multi-uses" />
+        <meta content="Uniquecrew" name="author" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icon -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <!-- Slider -->
+        <link rel="stylesheet" href="css/tiny-slider.css"/>
+        <!-- css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+    </head>
+
+    <body>
+        <!-- Loader Start -->
+        <div id="preloader">
+            <div id="status">
+                <div class="h5 mb-4 text-uppercase text-center">Vany Studio</div>
+                <div class="sk-chase">
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Loader End -->
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <div>
+                    <a class="logo" href="index.html"><img src="images/logo.png" height="20" alt=""></a>
+                </div>     
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu">
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="index.html" class="sub-menu-item">Default Home</a></li>
+                                <li><a href="index-boxed.html" class="sub-menu-item">Boxed Home</a></li>
+                                <li><a href="index-simple.html" class="sub-menu-item">Simple Home</a></li>
+                                <li><a href="index-parallax.html" class="sub-menu-item">Parallax Home</a></li>
+                                <li><a href="index-classic.html" class="sub-menu-item">Classic Home </a></li>
+                                <li><a href="index-agency.html" class="sub-menu-item">Agency Home</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-aboutme.html" class="sub-menu-item">About Me</a></li>
+                                <li><a href="page-aboutus.html" class="sub-menu-item">About Studio</a></li>
+                                <li><a href="page-services.html" class="sub-menu-item">Services</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)">Portfolio</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="work-2.html" class="sub-menu-item">Two Column</a></li>
+                                <li><a href="work-3.html" class="sub-menu-item">Three Column</a></li>
+                                <li><a href="work-4.html" class="sub-menu-item">Four Column</a></li>
+                                <li><a href="work-5.html" class="sub-menu-item">Five Column</a></li>
+                                <li><a href="work-6.html" class="sub-menu-item">Six Column</a></li>
+                                <li><a href="work-detail-1.html" class="sub-menu-item">Single Work one</a></li>
+                                <li><a href="work-detail-2.html" class="sub-menu-item">Single Work Two</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)">Blog</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="blog-grid.html" class="sub-menu-item">Blog Grid</a></li>
+                                <li><a href="blog-sidebar.html" class="sub-menu-item">Blog & Sidebar</a></li>
+                                <li><a href="blog-detail.html" class="sub-menu-item">Single Blog</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="contact.html" class="sub-menu-item">Contact</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half-170 d-table w-100" style="background: url('images/bg/bg-services.jpg');">
+            <div class="bg-overlay bg-overlay-white"></div>
+            <div class="container">
+                <div class="row mt-5 text-center align-items-center">
+                    <div class="col-12">
+                        <div class="page-next-level">
+                            <h4 class="title">Services</h4> 
+                            
+                            <ul class="page-next bg-white shadow d-inline-block p-2 px-4 rounded mt-4 mb-0">
+                                <li class="list-inline-item"><a href="index.html" class="text-uppercase text-dark">Home</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-uppercase text-dark">Pages</a></li>
+                                <li class="list-inline-item">
+                                    <span class="text-uppercase text-primary">Services</span> 
+                                </li> 
+                            </ul>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="home-shape-arrow d-block">
+                        <a href="#services" class="mouse-down"><i class="mdi mdi-arrow-down arrow-icon text-center d-inline-block shadow bg-white rounded-circle text-dark h5"></i></a>
+                    </div>
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Section Start -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 pb-2">
+                        <div class="feature rounded">
+                            <i class="icon mdi mdi-layers-triple-outline mdi-36px"></i>
+                            <div class="content mt-2">
+                                <h4 class="title">UX / UI Design</h4>
+                                <p class="text-muted mt-2">The most well-known dummy text is the 'Lorem', which well-known is said which is said to have in.</p>
+                                <a href="javascript:void(0)" class="read text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 pb-2">
+                        <div class="feature rounded">
+                            <i class="icon mdi mdi-responsive mdi-36px"></i>
+                            <div class="content mt-2">
+                                <h4 class="title">Ios App Designer</h4>
+                                <p class="text-muted mt-2">One disadvantage of Lorum Ipsum is that in certain letters which is said appear more than.</p>
+                                <a href="javascript:void(0)" class="read text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 pb-2">
+                        <div class="feature rounded">
+                            <i class="icon mdi mdi-camera mdi-36px"></i>
+                            <div class="content mt-2">
+                                <h4 class="title">Photography</h4>
+                                <p class="text-muted mt-2">Moreover, in Latin only words at the beginning of sentences which is said are capitalized.</p>
+                                <a href="javascript:void(0)" class="read text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 pb-2">
+                        <div class="feature rounded">
+                            <i class="icon mdi mdi-lightbulb-outline mdi-36px"></i>
+                            <div class="content mt-2">
+                                <h4 class="title">Graphic Designer</h4>
+                                <p class="text-muted mt-2">If the fill text is intended to illustrate the characteristics well-known which is said of sometimes.</p>
+                                <a href="javascript:void(0)" class="read text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 pb-2">
+                        <div class="feature rounded">
+                            <i class="icon mdi mdi-account-heart-outline mdi-36px"></i>
+                            <div class="content mt-2">
+                                <h4 class="title">Primary Care</h4>
+                                <p class="text-muted mt-2">There is now an abundance of readable dummy texts. These are which well-known is said text is.</p>
+                                <a href="javascript:void(0)" class="read text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 pb-2">
+                        <div class="feature rounded">
+                            <i class="icon mdi mdi-google mdi-36px"></i>
+                            <div class="content mt-2">
+                                <h4 class="title">Web Security</h4>
+                                <p class="text-muted mt-2">These alternatives to the classic are often amusing and tell short, which is said stories.</p>
+                                <a href="javascript:void(0)" class="read text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="col-12 text-center">
+                    <a href="javascript:void(0)" class="btn btn-primary">See More</a>
+                </div>
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4"> Happy Clients</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Obviously I'M Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">                    
+                    <div class="col-lg-12 mt-4">
+                        <div class="tiny-three-item"> 
+                            <div class="tiny-slide">
+                                <div class="testimonial text-center m-1">
+                                    <div class="review arrow-bottom position-relative rounded shadow p-4">
+                                        <h5 class="base">Awesome Design</h5>
+                                        <p class="text-muted mb-0">" It has roots in a piece of classical Latin literature need to be sure there isn't years old. Richard McClintock. "</p>
+                                    </div>
+                                    <div class="name-content text-center mt-4 pt-2">
+                                        <div class="image">
+                                            <img src="images/testi/01.jpg" class="mx-auto d-block rounded-pill shadow" alt="">
+                                        </div>
+                                        <div class="content pt-3">
+                                            <h6 class="name mb-0 text-uppercase">Bert Woods</h6>
+                                            <small class="designation text-muted font-weight-normal">C.E.O. - Apple</small>
+                                        </div>
+                                    </div>
+                                </div><!--end content-->
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="testimonial text-center m-1">
+                                    <div class="review arrow-bottom position-relative rounded shadow p-4">
+                                        <h5 class="base">Great Supports</h5>
+                                        <p class="text-muted mb-0">" It has roots in a piece of classical Latin literature need to be sure there isn't years old. Richard McClintock. "</p>
+                                    </div>
+                                    <div class="name-content text-center mt-4 pt-2">
+                                        <div class="image">
+                                            <img src="images/testi/02.jpg" class="mx-auto d-block rounded-pill shadow" alt="">
+                                        </div>
+                                        <div class="content pt-3">
+                                            <h6 class="name mb-0 text-uppercase">Asthama Rohi</h6>
+                                            <small class="designation text-muted font-weight-normal">M.D. - Vivo</small>
+                                        </div>
+                                    </div>
+                                </div><!--end content-->
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="testimonial text-center m-1">
+                                    <div class="review arrow-bottom position-relative rounded shadow p-4">
+                                        <h5 class="base">Responsive</h5>
+                                        <p class="text-muted mb-0">" It has roots in a piece of classical Latin literature need to be sure there isn't years old. Richard McClintock. "</p>
+                                    </div>
+                                    <div class="name-content text-center mt-4 pt-2">
+                                        <div class="image">
+                                            <img src="images/testi/03.jpg" class="mx-auto d-block rounded-pill shadow" alt="">
+                                        </div>
+                                        <div class="content pt-3">
+                                            <h6 class="name mb-0 text-uppercase">Rapchik Laila</h6>
+                                            <small class="designation text-muted font-weight-normal">G.M. - Oppo</small>
+                                        </div>
+                                    </div>
+                                </div><!--end content-->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            
+            <div class="container mt-5 pt-md-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-2 col-6 text-center">
+                        <img src="images/testi/amazon.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center">
+                        <img src="images/testi/google.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center mt-4 mt-sm-0">
+                        <img src="images/testi/lenovo.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center mt-4 mt-sm-0">
+                        <img src="images/testi/paypal.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center mt-4 mt-sm-0">
+                        <img src="images/testi/shopify.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center mt-4 mt-sm-0">
+                        <img src="images/testi/spotify.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Section End -->
+
+        <!-- footer start -->
+        <footer class="footer bg-footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <a href="#"><img src="images/logo-icon-light.png" height="64" alt=""></a>
+                        <p class="para-desc mx-auto copy-rights mt-4">Vany is a high-quality creative minimal portfolio template with great style, modern, creative, clean code and responsive design.</p>
+                        <ul class="list-unstyled mb-0 mt-4 social-icon social">
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-vimeo"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
+                        </ul>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <footer class="footer footer-bar bg-footer py-4">
+            <div class="container text-center">
+                <p class="mb-0 copy-rights"><script>document.write(new Date().getFullYear())</script> © Vany. Design with <i class="mdi mdi-heart text-danger"></i> by <span class="text-reset">Uniquecrew</span>.</p>
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <!-- footer end -->        
+
+        <!-- Back to top -->
+        <a href="#" class="back-to-top rounded shadow text-center" id="back-to-top"> 
+            <i class="mdi mdi-chevron-up mdi-18px d-block text-primary"> </i> 
+        </a>
+        <!-- Back to top -->
+        
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Slider -->
+        <script src="js/tiny-slider.js "></script>
+        <script src="js/tiny-slider-init.js "></script>
+        <!-- Main Js -->
+        <script src="js/app.js"></script>
+        
+    </body>
+
+</html>
