@@ -183,6 +183,10 @@ a.text-dark:hover {
   color: #8492a6 !important;
 }
 
+.desc-title {
+  color: #0404058f !important;
+}
+
 a.text-muted:hover {
   color: #68788f !important;
 }
@@ -1456,7 +1460,7 @@ p {
 }
 
 .bg-overlay-white {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.76);
 }
 
 .para-desc {

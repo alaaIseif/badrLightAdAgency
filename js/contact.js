@@ -7,22 +7,22 @@ function validateForm() {
   document.getElementById("error-msg").style.opacity = 0;
   document.getElementById('error-msg').innerHTML = "";
   if (name == "" || name == null) {
-    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Name*</div>";
+    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter your name*</div>";
     fadeIn();
     return false;
   }
   if (email == "" || email == null) {
-    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Email*</div>";
+    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter your email*</div>";
     fadeIn();
     return false;
   }
   if (subject == "" || subject == null) {
-    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Subject*</div>";
+    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a subject*</div>";
     fadeIn();
     return false;
   }
   if (comments == "" || comments == null) {
-    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter a Comments*</div>";
+    document.getElementById('error-msg').innerHTML = "<div class='alert alert-warning error_message'>*Please enter your comment*</div>";
     fadeIn();
     return false;
   }

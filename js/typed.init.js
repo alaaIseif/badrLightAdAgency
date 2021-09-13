@@ -5,7 +5,7 @@ if (document.getElementsByClassName('typed-boxed-en').length > 0) {
         typeSpeed: 200,
         loop: true,
         strings: [
-            ' is Professional Advertising Agency', ' has Smart Advertising Solutions', ' has Creative Designs',
+            ' Professional Advertising Agency', ' has Smart Advertising Solutions', ' has Creative Designs',
         ],
     });
 } if (document.getElementsByClassName('typed-boxed-ar').length > 0) {
