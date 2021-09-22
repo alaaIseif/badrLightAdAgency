@@ -68,24 +68,23 @@
                         <!-- Navigation Menu-->
                         <ul class="navigation-menu">
                             <li class="parent-menu-item">
-                                <a href="index.html">الرئيسية</a>
+                                <a href="javascript:void(0)"><span class="text-primary">الرئيسية</span></a>
                             </li>
 
                             <li class="parent-menu-item">
                                 <a href="page-aboutus-ar.html">نبذة عنا</a>
                             </li>
 
-                            <li class="parent-menu-item">
-                                <a href="page-services-ar.html"><span class="text-primary">خدماتنا</span></a>
+                            <li class="has-submenu parent-menu-item">
+                                <a href="page-services-ar.html">خدماتنا</a>
                             </li>
-
 
                             <li class="parent-menu-item">
                                 <a href="page-work-ar.html">أعمالنا</a></li>
                             <li class="parent-menu-item">
                                 <a href="page-clients-ar.html">عملاؤنا</a></li>
-                            <li class="parent-menu-item"><a href="contact-ar.html">تواصل معنا</a></li>
-                            <li class="parent-menu-item"> <a href="page-services-en.html">English</a></li>
+                            <li><a href="contact-ar.html" class="sub-menu-item">تواصل معنا</a></li>
+                            <li> <a href="index-en.html">English</a></li>
                         </ul>
                         <!--end navigation menu-->
                     </div>
@@ -96,6 +95,38 @@
             <!--end header-->
             <!-- Navbar End -->
 
+            <!-- Hero Start -->
+            <section class="bg-half-260 d-table w-100"
+                style="background: url('images/bg/printingMachine.jpg') center center;">
+                <div class="bg-overlay bg-overlay-white"></div>
+                <div class="container">
+                    <div class="row mt-5 justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="title-heading text-center">
+                                <h1 class="heading"><span class="text-primary">بدرلايت</span>
+                                    <span class="typed-boxed-ar"></span>
+                                </h1>
+                                <p class="desc-title para-desc mx-auto mt-3"> بدر لايت منذ عام 2008، وهي إحدى الشركات
+                                    الرائدة
+                                    في مجال الطباعة الأوفست و الطباعة الرقمية، و التصميمات.</p>
+                                <div class="watch-video mt-4 pt-2">
+                                    <a href="contact-ar.html" class="btn btn-primary me-2 mb-2"> تواصل معنا<i
+                                            class="mdi mdi-phone"></i></a>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#watchvideomodal"
+                                        class="video-play-icon watch text-dark"><i
+                                            class="mdi mdi-play play-icon-circle text-center d-inline-block me-2 rounded-pill text-white title-dark position-relative play play-iconbar bg-primary"></i>
+                                        شاهد!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--end section-->
+            <!-- Hero End -->
 
             <!-- portfolio -->
             <section class="section">
@@ -108,17 +139,13 @@
                                     <span class="categories h6 position-relative text-dark rounded m-3 active"
                                         data-group="all">الجميع</span>
                                     <span class="categories h6 position-relative text-dark rounded m-3"
-                                        data-group="offset">طباعة
-                                        أوفست</span>
+                                        data-group="offset">طباعة أوفست</span>
                                     <span class="categories h6 position-relative text-dark rounded m-3"
-                                        data-group="digital">طباعة
-                                        رقمية</span>
+                                        data-group="digital">طباعة رقمية</span>
                                     <span class="categories h6 position-relative text-dark rounded m-3"
-                                        data-group="inout">طباعة داخلية و
-                                        خارجية</span>
+                                        data-group="inout">طباعة داخلية و خارجية</span>
                                     <span class="categories h6 position-relative text-dark rounded m-3"
-                                        data-group="silkscreen">طباعة سلك
-                                        سكرين<span>/</span>يوفي</span><span
+                                        data-group="silkscreen">طباعة سلك سكرين-يوفي</span><span
                                         class="categories h6 position-relative text-dark rounded m-3"
                                         data-group="laser">حفر ليزر<span>/</span>CNC</span> </div>
                             </div>
@@ -127,22 +154,6 @@
                     </div>
                     <!--end row-->
                     <div id="grid" class="row mt-4 pt-2">
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["digital"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/d-1.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-digital-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-
                         <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["silkscreen"]'>
                             <div class="portfolio-box position-relative overflow-hidden">
                                 <div class="portfolio-box-img position-relative overflow-hidden">
@@ -210,22 +221,6 @@
                         </div>
                         <!--end col-->
 
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["inout"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/io-2.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-ioutdoor-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-
                         <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["offset"]'>
                             <div class="portfolio-box position-relative overflow-hidden">
                                 <div class="portfolio-box-img position-relative overflow-hidden">
@@ -242,22 +237,6 @@
                         </div>
                         <!--end col-->
 
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["inout"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/io-3.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-ioutdoor-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-
                         <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["offset"]'>
                             <div class="portfolio-box position-relative overflow-hidden">
                                 <div class="portfolio-box-img position-relative overflow-hidden">
@@ -265,21 +244,6 @@
                                     <div class="overlay-work">
                                         <div class="work-content text-center">
                                             <a href="work-offset-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["laser"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/l-2.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-laser-ar.html"
                                                 class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
                                                     class="mdi mdi-plus image-icon"></i></a>
                                         </div>
@@ -308,7 +272,7 @@
                         <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["inout"]'>
                             <div class="portfolio-box position-relative overflow-hidden">
                                 <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/io-4.jpg" class="img-fluid" alt="member-image">
+                                    <img src="images/work/io-2.jpg" class="img-fluid" alt="member-image">
                                     <div class="overlay-work">
                                         <div class="work-content text-center">
                                             <a href="work-ioutdoor-ar.html"
@@ -321,121 +285,258 @@
                         </div>
                         <!--end col-->
 
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["offset"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/p-4.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-offset-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
 
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["offset"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/p-5.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-offset-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["offset"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/p-6.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-offset-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["offset"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/p-1.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-offset-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["laser"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/l-4.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-laser-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["laser"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/l-3.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-laser-ar.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-
-                        <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["silkscreen"]'>
-                            <div class="portfolio-box position-relative overflow-hidden">
-                                <div class="portfolio-box-img position-relative overflow-hidden">
-                                    <img src="images/work/ss-2.jpg" class="img-fluid" alt="member-image">
-                                    <div class="overlay-work">
-                                        <div class="work-content text-center">
-                                            <a href="work-ssuv-en.html"
-                                                class="text-light work-icon bg-dark d-inline-block rounded-pill"><i
-                                                    class="mdi mdi-plus image-icon"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
                     </div><!-- End row -->
+
+                    <div class="row">
+                        <div class="col-lg-12 mt-4 pt-2">
+                            <div class="text-center">
+                                <a href="page-services-ar.html" class="btn btn-primary"><i
+                                        class="mdi mdi-reload"></i>المزيد</a>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
                 </div>
                 <!-- end container -->
+
+                <!--clients-->
+                <div class="container mt-5 pt-md-5">
+                    <div class="row justify-content-center si">
+                        <div class="col-lg-3 col-md-3 col-6 text-center">
+                            <img src="images/clients-logos/logo1.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-3 col-6 text-center">
+                            <img src="images/clients-logos/logo2.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo3.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo4.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row1-->
+
+                    <br /> <br />
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo5.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo6.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo7.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo8.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row2-->
+
+                    <br />
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo9.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo10.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo11.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo12.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row3-->
+
+                    <br /><br />
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo13.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo14.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo15.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo16.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row4-->
+
+                    <br /> <br />
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo17.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo18.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo19.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo20.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row5-->
+
+                    <br /> <br />
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo21.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo22.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo23.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo24.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row6-->
+
+                    <br /> <br />
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo25.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo26.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo27.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo28.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row7-->
+
+                    <br /> <br />
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo29.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo30.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo31.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo32.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row8-->
+
+                    <br /> <br />
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo33.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo34.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                            <img src="images/clients-logos/logo35.png" class="avatar avatar-ex-sm" alt=""
+                                style="width: 55%; height: auto;">
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-3 col-md-3 col-6 text-center mt-4 mt-sm-0">
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row9-->
+                </div>
+                <!--end container-->
             </section>
             <!--end section-->
             <!-- portfolio end -->
+            <br /><br /> <br />
+
 
             <!-- footer start -->
             <footer class="footer bg-footer">
@@ -511,6 +612,18 @@
             </footer>
             <!--end footer-->
             <!-- footer end -->
+
+            <!-- Video Popup Start -->
+            <div class="modal fade" id="watchvideomodal" tabindex="-1" aria-hidden="true">
+
+
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content video-modal rounded overflow-hidden">
+                        <iframe src="https://drive.google.com/file/d/1OfJofErGruTbWCrXnHYP6jcP2QLKx1M7/preview"
+                            width="800" height="480" allow="autoplay" allowfullscreen></iframe> </div>
+                </div>
+            </div>
+            <!-- Video Popup End -->
 
             <!-- Back to top -->
             <a href="#" class="back-to-top rounded shadow text-center" id="back-to-top">
