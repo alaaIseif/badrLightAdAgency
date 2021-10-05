@@ -11,6 +11,7 @@ if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
 $email    = $_POST['email'];
+$subject = $_POST['subject'];
 $comments = $_POST['comments'];
 
 if(trim($name) == '') {
@@ -39,7 +40,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@example.net";
-$address = "example@example.net";
+$address = "admin@badrlight.com";
 
 
 // Configuration option.
@@ -47,14 +48,14 @@ $address = "example@example.net";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'You have been contacted by ' . $name . '.';
+$e_subject = 'Website\'s form message by ' . $name . '.';
 
 
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name. Their additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "You have been contacted by $name. \r\nSubject: $subject \r\nMessage:" . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
 $e_reply = "You can contact $name via email, $email";
 
